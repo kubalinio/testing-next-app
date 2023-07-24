@@ -1,0 +1,44 @@
+@import '@szhsin/react-menu/dist/index.css';
+@import '@szhsin/react-menu/dist/transitions/slide.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+input[type='checkbox']:checked + div {
+  @apply border-primary-600;
+  @apply bg-primary-50;
+}
+input[type='checkbox'].checkbox-secondary:checked + div {
+  @apply border-white;
+  @apply bg-primary-600;
+}
+input[type='checkbox']:checked + div svg {
+  @apply block;
+}
+
+input[type='radio'] + label span {
+  transition: background 0.2s, transform 0.2s;
+}
+
+input[type='radio'] + label span:hover,
+input[type='radio'] + label:hover span {
+  transform: scale(1.2);
+}
+
+input[type='radio']:checked + label span {
+  @apply bg-primary-600;
+  @apply border-primary-600;
+  box-shadow: 0 0 0 2px white inset;
+}
+
+.early-access {
+  @apply py-0;
+  @apply px-2;
+  @apply uppercase;
+  @apply font-medium;
+  line-height: 1.4;
+  font-size: 10px;
+  border-width: 1px;
+}
