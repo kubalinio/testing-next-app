@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+  >
+    <h1
+      class="my-6 text-4xl font-bold text-gray-900"
+    >
+      Home Page
+    </h1>
+    <button
+      class="mb-6 rounded bg-blue-600 px-3 py-2 text-white hover:bg-blue-700"
+    >
+      Click Me
+    </button>
+    <div
+      class="mb-4"
+    >
+      <label
+        class="block text-sm font-medium text-gray-700"
+        for="randomText"
+      >
+        Enter Random Text:
+         
+      </label>
+      <input
+        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+        id="randomText"
+      />
+    </div>
+    <div
+      class="mb-4"
+    >
+      <label
+        class="block text-sm font-medium text-gray-700"
+        for="specificText"
+      >
+        Enter Specific Text:
+      </label>
+      <input
+        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+        id="specificText"
+      />
+    </div>
+    <div
+      class="mb-4"
+    >
+      <input
+        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+        placeholder="Search..."
+      />
+    </div>
+    <div
+      class="mb-4"
+    >
+      <input
+        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+        value="Szymon"
+      />
+    </div>
+    <div
+      class="mb-6"
+    >
+      <button
+        class="mt-2 rounded bg-blue-600 px-3 py-2 text-white hover:bg-blue-700"
+      >
+        Show Text
+      </button>
+    </div>
+  </main>
+</div>
+`;

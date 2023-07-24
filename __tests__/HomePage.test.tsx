@@ -46,4 +46,8 @@ describe('Home Page', () => {
       expect(await screen.findByText('This is the text!', {}, { timeout: 5000 })).toBeInTheDocument()
     })
   })
+  it('renders homepage unchanged', () => {
+    const { container } = render(<Home />)
+    expect(container).toMatchSnapshot()
+  })
 })
